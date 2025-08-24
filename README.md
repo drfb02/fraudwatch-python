@@ -6,7 +6,7 @@ Mini piattaforma MLOps: training di un modello di classificazione *fraud/no-frau
 > The model is trained on **synthetic data** and **must not** be used to make real financial decisions.
 > No real personal data is included.
 
-## Avvio rapido (local)
+## Quick start (local)
 ```bash
 python -m venv .venv && source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
 pip install -r requirements.txt
@@ -31,7 +31,7 @@ docker run -p 8000:8000 fraudwatch-api
 docker compose up --build
 ```
 
-## Struttura
+## Framework
 ```
 fraudwatch-python/
   app/
