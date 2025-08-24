@@ -48,10 +48,12 @@ fraudwatch-python/
   Makefile
 ```
 
-## Prossimi passi
-- Aggiungere pipeline (Prefect/Airflow), tracking (MLflow), e feature store.
-- Aggiungere autenticazione API key e rate limiting.
-- Integrare un piccolo dataset reale e notebook EDA.
+## Limitations & Responsible Use
+- Synthetic dataset; results are illustrative only.
+- No calibration/monitoring/drift checks included yet.
+- No PII is processed; do not submit real customer data to the demo API.
+- Before any production use, add: data governance, monitoring, bias audits, rate limiting, auth, logging, model registry (e.g., MLflow).
+
 
 ---
 © drfb02
