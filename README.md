@@ -1,10 +1,10 @@
 # FraudWatch (Python, FastAPI + scikit-learn)
+Mini piattaforma MLOps: training di un modello di classificazione *fraud/no-fraud*, servizio di prediction via API, test, Docker e CI.
+
 > **Disclaimer**
 > This repository is an educational **demo** for end-to-end ML (training + serving).
 > The model is trained on **synthetic data** and **must not** be used to make real financial decisions.
 > No real personal data is included.
-
-Mini piattaforma MLOps: training di un modello di classificazione *fraud/no-fraud*, servizio di prediction via API, test, Docker e CI.
 
 ## Avvio rapido (local)
 ```bash
